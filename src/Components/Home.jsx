@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundVideo from "../assets/backgroundVideo.mp4";
+
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -47,7 +47,7 @@ const Home = () => {
           muted
           className="absolute top-0 left-0 w-full h-full object-cover"
         >
-          <source src={backgroundVideo} type="video/mp4" />
+          <source src="/BackgroundVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
