@@ -7,7 +7,11 @@ const Home = () => {
     <div id="Home" className="h-screen overflow-hidden">
       {/* Navigation Bar */}
       <div className="flex justify-between items-center p-5 h-20 bg-gray-200 bg-opacity-70 fixed w-full z-50">
-        <h1 className="text-2xl font-bold">MJ</h1>
+        <h1 className="text-2xl font-bold mr-10 cursor-pointer hover:text-gray-500 transition-colors duration-300">
+          <Link to="Home" smooth={true} duration={500}>
+            MJ
+          </Link>
+        </h1>
         <div className="flex text-2xl font-poppins">
           <span className="mr-10 cursor-pointer hover:text-gray-500 transition-colors duration-300">
             <Link to="Home" smooth={true} duration={500}>
