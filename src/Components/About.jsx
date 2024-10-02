@@ -9,23 +9,27 @@ const About = () => {
       <div className="max-w-3xl mx-auto text-center">
         <div>
           <h2 className="text-[26px] font-archivo font-bold mb-6 border-b-2 border-white pb-6">
-            CRAFTING IDEAS INTO STUNNING WEB REALITIES
+            ABOUT ME
           </h2>
           <div className="text-lg font-medium flex flex-col gap-4">
             <p>
-              Passionate about frontend development since my early days, I bring
-              a tech-driven journey to your team.
+              With a passion for frontend development that began in my early
+              years, I thrive on creating innovative and visually striking web
+              solutions.
             </p>
             <p>
-              Known for my precision and a commitment to perfection, I tackle
-              challenges head-on, always figuring things out even in the
-              unknown.
+              I’m dedicated to delivering clean, efficient code and have a knack
+              for problem-solving, even when faced with new challenges.
             </p>
             <p>
-              As a team player with a friendly demeanor, I seamlessly fit into
-              any collaborative environment.
+              A collaborative team player with a positive attitude, I easily
+              adapt to any work environment and enjoy contributing to shared
+              goals.
             </p>
-            <p>Let's connect and craft remarkable web experiences together!</p>
+            <p>
+              Let’s collaborate and transform ideas into extraordinary web
+              experiences!
+            </p>
           </div>
         </div>
       </div>
