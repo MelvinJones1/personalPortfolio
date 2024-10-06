@@ -4,19 +4,21 @@ const Contact = () => {
   return (
     <div
       id="Contact"
-      className="min-h-screen flex flex-col items-center justify-center bg-gray-100"
+      className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-5"
     >
-      <h1 className="text-4xl font-bold mb-8">Contact Me</h1>
-      <p className="text-xl mb-4">Feel free to reach out to me via email:</p>
+      <h1 className="text-4xl font-bold mb-6 text-center">Contact Me</h1>
+      <p className="text-xl mb-4 text-center">
+        Feel free to reach out to me via email:
+      </p>
       <a
         href="mailto:melvinjones632004@gmail.com"
-        className="text-blue-500 text-xl underline mb-8"
+        className="text-blue-500 text-xl underline mb-6"
       >
         melvinjones632004@gmail.com
       </a>
 
       {/* Social Media Links */}
-      <div className="flex space-x-6">
+      <div className="flex flex-col sm:flex-row sm:space-x-6 space-y-4 sm:space-y-0">
         {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/melvin-jones-058866224/"
